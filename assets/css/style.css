@@ -29,4 +29,8 @@ html {
 body {
     font-size: 1.8rem;
     font-family: var(--font-poppins);
+    font-weight: var(--font-weight-poppins-400);
+    color: var(--color-neutral-very-dark-cyan);
+    line-height: 1.5;
 }
+
