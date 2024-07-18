@@ -76,9 +76,13 @@ header {
     text-decoration: none;
 
 }
+.header-btn-top:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
 .header-bottom {
     display: grid;
-    grid-template-columns: 40fr 60fr;
+    grid-template-columns: 42fr 58fr;
     align-items: center;
     justify-content: space-between;
     
@@ -86,7 +90,14 @@ header {
 }
 
 .header-title{
+    margin-bottom: 2.4rem;
+    margin-right: 9.4rem;
     
+
+}
+
+.header-description {
+    margin-bottom: 2.4rem;
 
 }
 
@@ -109,9 +120,95 @@ header {
     box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
 }
 
+.header-btn-bottom:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
 .header-btn-bottom a {
     text-decoration: none;
     color: white;
-    opacity: 0.8;
+    opacity: 0.9;
 
+}
+main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 16rem 0 36rem 0;
+}
+
+.hero {
+    width: 85%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 3.2rem;
+    
+
+}
+.container {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 9px;
+    height: 42rem;
+   
+}
+
+.container img {
+    width: 100%;
+}
+.hero-left {
+    margin: 12rem;
+    padding-right: 6.4rem;
+}
+.hero-right {
+    padding: 2.4rem;
+}
+
+.cta {
+    background-color: white ;
+    padding: 6.4rem;
+    border-radius: 11px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom:3%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.cta-title {
+    margin-bottom: 4.2rem;
+}
+.cta-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.4rem;
+    border: none;
+    background-color: var(--color-primary);
+    color: white;
+    padding:  2.6rem 6.8rem;
+    border-radius: 24px;
+    font-weight: 500;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+
+}
+.cta-btn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+footer {
+    background-color: var(--color-neutral-very-dark-cyan);
 }
